@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Pogoda</h1>
+        </header>
+        <section class="main">
+                <input type="text" name="pogoda"  id="pogoda_search" placeholder="Jakiego miasta szukasz">
+                <ul class="suggestions">
+                  <li>Filter for a city</li>
+                </ul>
+            <div class="city">
+                <h1 class="cityName"></h1>
+                <p class="time"></p>
+                <div class="icon">
+                    <div class="icon_weather"></div>
+                    <div class="temp"></div>
+                </div>
+                <h1 class="stan" style="margin-top: 10px; margin-bottom: 20px;"></h1>
+                <div class="blok">
+                    <div class="blok-blok">
+                        <div class="WindSpeed"></div>
+                        <div>prędkość wiatru</div>
+                    </div>
+                    <div class="blok-blok">
+                        <div class="pressure"></div>
+                        <div>ciśnienie</div>
+                    </div >
+                    <div class="blok-blok">
+                        <div class="wilgotnosc"></div>
+                        <div>Wilgotność</div>
+                    </div>
+                    <div class="blok-blok">
+                        <div class="precip"></div>
+                        <div>Szansa Opadów</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+<!-- JS -->
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
